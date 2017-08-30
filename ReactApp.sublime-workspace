@@ -1,0 +1,221 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\n\nclass Square extends React.Component {\n  render() {\n    return (\n      <button className=\"square\">\n        {this.props.value}\n      </button>\n    );\n  }\n}\n\nclass Board extends React.Component {\n  renderSquare(i) {\n    return <Square value={i} />;\n  }\t\n\n  render() {\n\tconst status = 'Next Player: X';\n\n\treturn (\n\t\t<div>\n\t\t<div className=\"status\">{status}</div>\n\t  <div className=\"board-row\">\n          {this.renderSquare(0)}\n          {this.renderSquare(1)}\n          {this.renderSquare(2)}\n        </div>\n\t )\n  }\n}\n\nclass Game extends React.Component {\n  render() {\n    return (\n      <div className=\"game\">\n        <div className=\"game-board\">\n          <Board />\n        </div>\n        <div className=\"game-info\">\n          <div>{/* status */}</div>\n          <ol>{/* TODO */}</ol>\n        </div>\n      </div>\n    );\n  }\n}\n\n// ========================================\n\nReactDOM.render(\n  <Game />,\n  document.getElementById('root')\n);\n",
+			"file": "my-app/src/index.js",
+			"file_size": 1018,
+			"file_write_time": 131475921832452888,
+			"settings":
+			{
+				"buffer_size": 1021,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Johnathanvg/Desktop/XOs/my-app",
+		"/C/Users/Johnathanvg/Desktop/XOs/my-app/src"
+	],
+	"file_history":
+	[
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/forms.html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/entities.html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/links.html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/tables.html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/Links[30].html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/Tables.html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/HelloWorld.html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/WebPage.html",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Course/HTML/HTML Tables",
+		"/C/Users/Johnathanvg/Desktop/WebDeveloper Corse/HTML/HelloWorld.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "my-app/src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								447,
+								447
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 217.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ReactApp.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
